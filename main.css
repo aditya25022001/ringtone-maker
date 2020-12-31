@@ -1,0 +1,21 @@
+body{
+    display: flexbox;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.sounds{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+audio{
+    margin-bottom: 10px;
+}
+.sound1, .sound2, .sound3{
+    display: flex;
+    flex-direction: column;
+}
