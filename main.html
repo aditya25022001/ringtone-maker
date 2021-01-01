@@ -11,43 +11,47 @@
     </head>
     <body>
         <h1>Set keys for each keynote of piano</h1>
-        <div class="sounds" id="sounds">    
-            <div class="sound1" id="sound">
-                <div class="each"><audio controls><source src="sounds/1.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/2.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/3.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/4.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/5.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/6.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/7.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/8.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/9.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/10.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-            </div>    
-            <div class="sound2">           
-                <div class="each"><audio controls><source src="sounds/11.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/12.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/13.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/14.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/15.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/16.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/17.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/18.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/19.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/20.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-            </div>
-            <div class="sound3">   
-                <div class="each"><audio controls><source src="sounds/21.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/22.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/23.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/24.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/25.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/26.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/27.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/28.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/29.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-                <div class="each"><audio controls><source src="sounds/30.mp3" type="audio/mpeg"></audio><input class="key" id="" type="text" placeholder="enter key"></div>
-            </div>  
-        </div>            
+        <div class="container">
+            <div class="sounds" id="sounds">    
+                <div class="sound1" id="sound">
+                    <div class="each"><audio controls><source src="sounds/1.mp3" type="audio/mpeg" id="1"></audio><input class="key"  id="@1" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/2.mp3" type="audio/mpeg" id="2"></audio><input class="key"  id="@2" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/3.mp3" type="audio/mpeg" id="3"></audio><input class="key"  id="@3" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/4.mp3" type="audio/mpeg" id="4"></audio><input class="key"  id="@4" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/5.mp3" type="audio/mpeg" id="5"></audio><input class="key"  id="@5" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/6.mp3" type="audio/mpeg" id="6"></audio><input class="key"  id="@6" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/7.mp3" type="audio/mpeg" id="7"></audio><input class="key"  id="@7" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/8.mp3" type="audio/mpeg" id="8"></audio><input class="key"  id="@8" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/9.mp3" type="audio/mpeg" id="9"></audio><input class="key"  id="@9" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/10.mp3" type="audio/mpeg" id="10"></audio><input class="key"  id="@10" type="text" placeholder="enter key"></div>
+                </div>    
+                <div class="sound2">           
+                    <div class="each"><audio controls><source src="sounds/11.mp3" type="audio/mpeg" id="11"></audio><input class="key"  id="@11" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/12.mp3" type="audio/mpeg" id="12"></audio><input class="key"  id="@12" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/13.mp3" type="audio/mpeg" id="13"></audio><input class="key"  id="@13" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/14.mp3" type="audio/mpeg" id="14"></audio><input class="key"  id="@14" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/15.mp3" type="audio/mpeg" id="15"></audio><input class="key"  id="@15" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/16.mp3" type="audio/mpeg" id="16"></audio><input class="key"  id="@16" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/17.mp3" type="audio/mpeg" id="17"></audio><input class="key"  id="@17" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/18.mp3" type="audio/mpeg" id="18"></audio><input class="key"  id="@18" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/19.mp3" type="audio/mpeg" id="19"></audio><input class="key"  id="@19" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/20.mp3" type="audio/mpeg" id="20"></audio><input class="key"  id="@20" type="text" placeholder="enter key"></div>
+                </div>
+                <div class="sound3">   
+                    <div class="each"><audio controls><source src="sounds/21.mp3" type="audio/mpeg" id="21"></audio><input class="key"  id="@21" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/22.mp3" type="audio/mpeg" id="22"></audio><input class="key"  id="@22" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/23.mp3" type="audio/mpeg" id="23"></audio><input class="key"  id="@23" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/24.mp3" type="audio/mpeg" id="24"></audio><input class="key"  id="@24" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/25.mp3" type="audio/mpeg" id="25"></audio><input class="key"  id="@25" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/26.mp3" type="audio/mpeg" id="26"></audio><input class="key"  id="@26" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/27.mp3" type="audio/mpeg" id="27"></audio><input class="key"  id="@27" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/28.mp3" type="audio/mpeg" id="28"></audio><input class="key"  id="@28" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/29.mp3" type="audio/mpeg" id="29"></audio><input class="key"  id="@29" type="text" placeholder="enter key"></div>
+                    <div class="each"><audio controls><source src="sounds/30.mp3" type="audio/mpeg" id="30"></audio><input class="key"  id="@30" type="text" placeholder="enter key"></div>
+                </div>  
+            </div>      
+            <div class="set" id="set"><button onclick="set()">Set Keys</button></div>
+            <div class="warning" id="warning"></div>
+        </div>      
     </body>
 </html>
